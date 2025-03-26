@@ -1,0 +1,36 @@
+# Node modules - should always be excluded
+node_modules
+dist
+*.log
+
+# Local databases
+*.sqlite
+*.db
+*.sqlite3
+mydatabase.db
+
+# IDE/editor settings
+.vscode
+.idea
+
+# System files
+.DS_Store
+Thumbs.db
+
+# OS or temporary files
+*.swp
+*.swo
+*.tmp
+
+# Git
+.git
+.gitignore
+
+# Environment and secret files
+.env
+.env.*  # for .env.development, .env.production, etc.
+
+# Docker-specific artifacts
+Dockerfile
+docker-compose.yml
+.dockerignore

@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "target": "ES2020", // ECMAScript version for the generated JavaScript
+        "module": "CommonJS", // Module system suitable for Node.js
+        "rootDir": "./src", // Location of the TypeScript source files
+        "outDir": "./dist", // Output directory for compiled JavaScript
+        "strict": true, // Enable all strict type-checking options
+        "esModuleInterop": true, // Allow default imports from CommonJS modules
+        "forceConsistentCasingInFileNames": true, // Disallow inconsistently cased references
+        "skipLibCheck": true, // Skip type checking of declaration files
+        "moduleResolution": "node", // Resolve modules using Node.js module resolution strategy
+        "resolveJsonModule": true, // Allow importing .json files as modules
+        "sourceMap": true, // Generate corresponding .map files for debugging
+        "noImplicitAny": true // Raise error on expressions and declarations with an implied 'any' type
+    },
+    "include": [
+        "src/**/*.ts"
+    ], // Files to include in the compilation
+    "exclude": [
+        "node_modules",
+        "dist"
+    ] // Files/directories to exclude from compilation
+}

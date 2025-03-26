@@ -1,0 +1,51 @@
+# Node dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Local environment variables
+.env
+.env.*
+!.env.example
+
+# SQLite database files
+*.db
+*.sqlite
+*.sqlite3
+mydatabase.db
+
+# Coverage reports
+coverage/
+
+# IDE/editor settings
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# macOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+
+# Temp files
+*.tmp
+*.swp
+*.swo
+
+# Git-related
+*.orig
